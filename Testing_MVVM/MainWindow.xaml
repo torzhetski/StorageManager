@@ -1,0 +1,98 @@
+﻿<Window x:Class="Testing_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Testing_MVVM"
+        xmlns:VM="clr-namespace:Storage_Manager.MVVM.ViewModel"
+        xmlns:View="clr-namespace:Storage_Manager.MVVM.View"
+        xmlns:This="clr-namespace:Storage_Manager"
+        mc:Ignorable="d"
+        Title="Storage Manager" 
+        Height="600" Width="920" 
+        Icon="Images/Icon.ico"
+        WindowStyle="None" 
+        Background="Transparent"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Topmost="false"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <VM:MainVM/>
+    </Window.DataContext>
+
+    <Border CornerRadius="50" Background="#151922">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="85"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="#FF97A0A5"
+                    BorderThickness="0,0,1,1">
+                
+                <StackPanel Orientation="Horizontal">
+                    
+                    <Image Source="Images/Icon3.ico"
+                           Margin="50,5,0,5"/>
+ 
+            </StackPanel>
+            </Border>
+            <TextBlock Text ="Your  Storage  Manager" 
+                       FontSize="60"
+                       Margin="30,0,0,0"
+                       Grid.Column="1">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Offset="0.25" Color="White" />
+                        <GradientStop Offset="1.0" Color="Gold" />
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+
+            <Border BorderBrush="#FF97A0A5"
+                    BorderThickness="0,0,1,0"
+                    Grid.Row="1">
+                <StackPanel >
+                    <RadioButton Content="Produce details"
+                                 IsChecked="True"
+                                 Command="{Binding NextPageCommand}"
+                                 CommandParameter="{x:Static This:ID.DetailsProduce}"/>
+                    <RadioButton Content="Buy Materials" 
+                                 Command="{Binding NextPageCommand}"
+                                 CommandParameter="{x:Static This:ID.MaterialsBuy}" />
+                    <RadioButton Content="Add Detail" 
+                                 Command="{Binding NextPageCommand}"
+                                 CommandParameter="{x:Static This:ID.AddDetail}"/>
+
+                    <RadioButton Content="Add Company" 
+                                 Command="{Binding NextPageCommand}"
+                                 CommandParameter="{x:Static This:ID.AddCompany}"/>
+
+                    <RadioButton Content="Delete Detail/Comany" 
+                                 Command="{Binding NextPageCommand}"
+                                 CommandParameter="{x:Static This:ID.DeleteDetailOrCompany}"/>
+
+                </StackPanel>
+            </Border>
+            
+            <Button Grid.Row="1" 
+                    VerticalAlignment="Bottom"
+                    Content="Exit"                   
+                    Click="Button_Click"/>
+
+            <Border Grid.Column="1"
+                    BorderBrush="#FF97A0A5"
+                    BorderThickness="0,0,0,1">
+                
+            </Border>
+
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Content="{Binding CurrentView}"/>
+        </Grid>
+    </Border>
+</Window>

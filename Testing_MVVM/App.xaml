@@ -1,0 +1,44 @@
+﻿<Application x:Class="Testing_MVVM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Testing_MVVM"
+             xmlns:VM="clr-namespace:Storage_Manager.MVVM.ViewModel"
+             xmlns:View="clr-namespace:Storage_Manager.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <!--<ResourceDictionary Source="Resourses/RadioButtonStyle.xaml"/>
+                <ResourceDictionary Source="Resourses/ButtonStyle.xaml"/>
+                <ResourceDictionary Source="Resourses/ComboboxStyle.xaml"/>
+                <ResourceDictionary Source="Resourses/CheckBoxStyle.xaml"/>
+                
+                -->
+                <ResourceDictionary Source="Resourses/PopupStyle.xaml"/>
+                <ResourceDictionary Source="Resourses/TextBoxStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type VM:ProduceDetailsVM}">
+                <View:ProduceDetailsView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type VM:BuyMaterialsVM}">
+                <View:BuyMaterialsVIew/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type VM:AddDetailVM}">
+                <View:AddDetailView/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type VM:AddCompanyVM}">
+                <View:AddCompanyView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type VM:DeleteDetailOrComanyVM}">
+                <View:DeleteDetailOrCompanyView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

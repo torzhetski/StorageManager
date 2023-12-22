@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Storage_Manager.MVVM.Model.Company">
+    <Position X="17.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.69" />
+        <Point X="17.25" Y="3.8" />
+        <Point X="18.25" Y="3.8" />
+        <Point X="18.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAACAAAEAAABAASAAAAAAAECAAAAAAAEAAA=</HashCode>
+      <FileName>MVVM\Model\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.Model.Detail">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.69" />
+        <Point X="17.25" Y="3.807" />
+        <Point X="16.25" Y="3.807" />
+        <Point X="16.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAgGgAAEAAAAAASAAAAAAAEAgARAAAIAAAA=</HashCode>
+      <FileName>MVVM\Model\Detail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.Model.DetailScheme">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.69" />
+        <Point X="17.25" Y="3.8" />
+        <Point X="20.25" Y="3.8" />
+        <Point X="20.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAAACAAAEAAABAGQAAAAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>MVVM\Model\DetailScheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.Model.Material">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAGAAAEAAAgAASAAAAAAAACAgBAAAAAAAE=</HashCode>
+      <FileName>MVVM\Model\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.View.AddCompanyView" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\AddCompanyView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Storage_Manager.MVVM.View.AddDetailView" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\AddDetailView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Storage_Manager.MVVM.View.BuyMaterialsVIew" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\BuyMaterialsVIew.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Storage_Manager.MVVM.View.DeleteDetailOrCompanyView" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\DeleteDetailOrCompanyView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Storage_Manager.MVVM.View.ProduceDetailsView" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\View\ProduceDetailsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.AddCompanyVM">
+    <Position X="18.5" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.691" />
+        <Point X="17.25" Y="3.802" />
+        <Point X="19.25" Y="3.802" />
+        <Point X="19.25" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QEAAAAABAAAACAACAAABAAAAAAAAAAAAQAAAAAAAACA=</HashCode>
+      <FileName>MVVM\ViewModel\AddCompanyVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.AddDetailVM">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QEAAAAABAAAAiAACAEABAAEAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\AddDetailVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.BuyMaterialsVM">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.691" />
+        <Point X="17.25" Y="3.828" />
+        <Point X="15.25" Y="3.828" />
+        <Point X="15.25" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>YMAAAAEAACCBACAAIACBAACQAAAgAACAIgAAAAIAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\BuyMaterialsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.DeleteDetailOrComanyVM">
+    <Position X="20.5" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.691" />
+        <Point X="17.25" Y="3.819" />
+        <Point X="21.25" Y="3.819" />
+        <Point X="21.25" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAJAAAAAAAAAAAAAACgAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\DeleteDetailOrComanyVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.MainVM">
+    <Position X="16.5" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAABACABAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVVM\ViewModel\MainVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.MVVM.ViewModel.ProduceDetailsVM">
+    <Position X="12.5" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Storage_Manager.ObservableObject" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="3.691" />
+        <Point X="17.25" Y="3.812" />
+        <Point X="13.25" Y="3.812" />
+        <Point X="13.25" Y="9.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QEAAIAAAAACBAAAAAAEBAgAAGAACAECABAAwAEACAAA=</HashCode>
+      <FileName>MVVM\ViewModel\ProduceDetailsVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage_Manager.ObservableObject">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAABAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObservableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Storage_Manager.RelayCommand">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Storage_Manager.IntegerValidationRule">
+    <Position X="10.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IntegerValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Testing_MVVM.MainWindow">
+    <Position X="16.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="Storage_Manager.ID">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAACAAAAgAAIAAAACCAAAAAAAAAA=</HashCode>
+      <FileName>Id.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
