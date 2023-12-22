@@ -9,12 +9,10 @@
         <ResourceDictionary>
             
             <ResourceDictionary.MergedDictionaries>
-                <!--<ResourceDictionary Source="Resourses/RadioButtonStyle.xaml"/>
+                <ResourceDictionary Source="Resourses/RadioButtonStyle.xaml"/>
                 <ResourceDictionary Source="Resourses/ButtonStyle.xaml"/>
                 <ResourceDictionary Source="Resourses/ComboboxStyle.xaml"/>
                 <ResourceDictionary Source="Resourses/CheckBoxStyle.xaml"/>
-                
-                -->
                 <ResourceDictionary Source="Resourses/PopupStyle.xaml"/>
                 <ResourceDictionary Source="Resourses/TextBoxStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
